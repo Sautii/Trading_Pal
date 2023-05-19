@@ -1,5 +1,9 @@
  # Trading Pal 
-(https://github.com/Deion24x/TradingPal-/assets/128738398/35db9ba7-401c-4f1e-b916-4d5b98b57b79)
+![Trading_Pal (1)](https://github.com/Deion24x/TradingPal-/assets/128738398/be22d8c6-ded5-4ab0-b643-e04c72cece93)
+
+
+
+
 Trading Pal is a powerful, flexible, and 
 easy-to-use trading bot designed for Forex trading. With Trading Pal, you can automate your trading strategies, manage your risk, and monitor your performance, all from the comfort of your own command line.
 
