@@ -8,13 +8,13 @@ from words import trading_keywords, endpoint_phrases, messages, intents
 
 
 # Set the OpenAI and OANDA API keys
-OPENAI_API_KEY = "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"
-OANDA_API_KEY = "620effdf7830ee7ca93f668147bbd71c-fb7b8385d044e4274a5bed321d34fcad"
+OPENAI_API_KEY = "your api here"
+OANDA_API_KEY = "your api here"
 openai.api_key = OPENAI_API_KEY
 
 # Set the base URL for the OANDA API
 BASE_URL = "https://api-fxpractice.oanda.com"
-ACCOUNT_ID = "101-001-25239678-001"
+ACCOUNT_ID = "your id here"
 
 # The headers for the HTTP requests
 headers = {
