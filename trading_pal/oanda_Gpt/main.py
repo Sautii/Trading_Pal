@@ -10,7 +10,7 @@ from oanda_api import get_account_details, place_trade, get_candlestick_data, ge
 from preferences import get_user_name, collect_preferences
 
 # Set OpenAI API key
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "your api here"
 openai.api_key = OPENAI_API_KEY
 
 # Maximum token limit for each conversation
