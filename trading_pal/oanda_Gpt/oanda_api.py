@@ -3,9 +3,9 @@
 import requests
 
 BASE_URL = "https://api-fxpractice.oanda.com"
-ACCOUNT_ID = "101-001-25239678-001"
+ACCOUNT_ID = "your id here"
 
-OANDA_API_KEY = "620effdf7830ee7ca93f668147bbd71c-fb7b8385d044e4274a5bed321d34fcad"
+OANDA_API_KEY = "your api here"
 headers = {
     "Content-Type": "application/json",
     "Authorization": f"Bearer {OANDA_API_KEY}",
