@@ -6,20 +6,22 @@ import ast
 
 from words import trading_keywords, endpoint_phrases, messages, intents
 
+# Set your Alpaca API keys
+ALPACA_API_KEY_ID = "ALPACA_API_KEY_ID"
+ALPACA_API_SECRET_KEY = "ALPACA_API_SECRET_KEY"
 
-# Set the OpenAI and OANDA API keys
-OPENAI_API_KEY = "your api here"
-OANDA_API_KEY = "your api here"
+# Set the OpenAI API key
+OPENAI_API_KEY = "OPENAI_API_KEY"
 openai.api_key = OPENAI_API_KEY
 
 # Set the base URL for the Alpaca API
 BASE_URL = "https://paper-api.alpaca.markets"
-HEADERS = {'APCA-API-KEY-ID': YOUR_APCA_API_KEY_ID, 'APCA-API-SECRET-KEY': YOUR_APCA_API_SECRET_KEY}
 
-# The headers for the HTTP requests
+# Set the headers for the HTTP requests
 headers = {
+    "APCA-API-KEY-ID": ALPACA_API_KEY_ID,
+    "APCA-API-SECRET-KEY": ALPACA_API_SECRET_KEY,
     "Content-Type": "application/json",
-    "Authorization": f"Bearer {OANDA_API_KEY}",
     "Connection": "keep-alive"
 }
 # Maximum token limit for each conversation
